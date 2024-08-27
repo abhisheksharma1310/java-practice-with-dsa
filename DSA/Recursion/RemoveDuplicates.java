@@ -1,3 +1,5 @@
+package DSA.Recursion;
+
 public class RemoveDuplicates {
     public static void remove(String str, int idx, StringBuilder newString, boolean map[]) {
         if (idx == str.length()) {

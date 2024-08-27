@@ -4,7 +4,7 @@ package DSA.Recursion;
  * Print numbers from n to 1 (Decreasing Order)
  */
 
-public class decreasingNumbers {
+public class DecreasingNumbers {
 
     public static void printDec(int n) {
         if (n == 0) {

@@ -1,3 +1,5 @@
+package DSA.Recursion;
+
 public class TilingProblem {
     public static int tiles(int n) {
         if (n == 0 || n == 1) {

@@ -1,3 +1,4 @@
+package DSA.Recursion;
 
 public class LastOccurrence {
     public static int occurrence(int arr[], int n, int key) {

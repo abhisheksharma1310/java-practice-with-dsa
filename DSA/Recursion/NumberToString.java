@@ -8,16 +8,17 @@ package DSA.Recursion;
  */
 
 public class NumberToString {
-    public static void printString(int num) {
+    public static void printString(int number) {
         String numbers[] = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-
-        int currentNumber = num % 10;
-        System.out.print(numbers[currentNumber] + " ");
-        num = num / 10;
-        printString(num);
+        if (number == 0) {
+            return;
+        }
+        int lastDigit = number % 10;
+        printString(number / 10);
+        System.out.print(numbers[lastDigit] + " ");
     }
 
     public static void main(String args[]) {
-        printString(2019);
+        printString(1947);
     }
 }

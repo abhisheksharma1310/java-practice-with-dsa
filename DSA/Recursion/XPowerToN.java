@@ -1,3 +1,5 @@
+package DSA.Recursion;
+
 public class XPowerToN {
     public static int power(int x, int n) {
         // if (n == 0) {
